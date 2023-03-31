@@ -18,7 +18,7 @@ def cat_imc():
         cat = "Obesidad tipo tres"
         return cat
 def imprimir():
-    print("Informacion personal Nombre y Apellido: " + persona["Nombre"].upper() + " " + persona["Apellido"].upper() + "\nCategoria de IMC: " + cat_imc().upper() + " / Peso " + persona["Peso"] + " Kg / Altura: "+ persona["Altura"] + " metros\nEdad: " + persona["Edad"] + " años" "\nDireccion en: " + persona["Direccion"].upper() + " / Telefono: " + persona["Telefono"] )
+    print("Informacion personal Nombre y Apellido: " + persona["Nombre"].upper() + " " + persona["Apellido"].upper() + "\nCategoria de IMC: " + cat_imc().upper() + " / Peso " + persona["Peso"] + " Kg / Altura: "+ persona["Altura"] + " metros\nEdad: " + persona["Edad"] + " aÃ±os" "\nDireccion en: " + persona["Direccion"].upper() + " / Telefono: " + persona["Telefono"] )
 
 print("Bienvenido al programa..")
 persona={"Nombre":"","Apellido":"","Edad":0,"Peso":0,"Altura":0,"Direccion":"","Telefono":""}
